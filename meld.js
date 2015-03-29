@@ -13,9 +13,7 @@
  * @author John Hann
  * @version 1.3.1
  */
-(function (define) {
-define(function () {
-
+var corebosaop_meld = function () {
 	//
 	// Public API
 	//
@@ -592,7 +590,4 @@ define(function () {
 	}
 
 	return meld;
-
-});
-})(typeof define == 'function' && define.amd ? define : function (factory) { module.exports = factory(); }
-);
+}();
